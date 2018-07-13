@@ -1,0 +1,17 @@
+.TodoItem {
+  align-items: center;
+  border-bottom: solid 1px #ccc;
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+}
+
+.TodoItem:last-child {
+  border: none;
+}
+
+.TodoItem p {
+  flex: 1;
+  text-align: left;
+}

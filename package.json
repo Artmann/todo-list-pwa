@@ -1,0 +1,23 @@
+{
+  "name": "todo-pwa",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@firebase/database": "^0.3.4",
+    "firebase": "^5.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "serve": "^9.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "serve": "serve -s build"
+  }
+}
